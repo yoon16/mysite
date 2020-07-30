@@ -1,0 +1,21 @@
+com.bit2020.mysite.controller
+	|---- MainController
+	|---- UserController
+	
+com.bit2020.mysite.repository
+	|---- UserRepository
+	
+com.bit2020.mysite.vo
+	|---- UserVo
+
+com.bit2020.mvc.util
+	|---- MVCUtil
+	
+context(문맥, 어떤 정보를 가지고 있는 컨테이너)
+context = Application
+
+애플리케이션에 대한 정보, 컨테이너(tomcat)의 클래스(servlet, listner, filter, ...)
+들이 어떻게 실행되어야하는가에 대한 정보
+
+tomcat에서 context: Web Application은 Servlet들이 구성하고 있다
+spring에서 context: Business Class(Service, Repository, ...)들이 구성하고 있다
